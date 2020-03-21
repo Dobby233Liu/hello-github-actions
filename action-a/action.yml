@@ -1,0 +1,17 @@
+name: "echo"
+description: "Display a content"
+author: "15816141883@qq.com"
+
+inputs:
+  MY_NAME:
+    description: "What to display"
+    required: true
+    default: "Hello, world!"
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
+
+branding:
+  icon: "mic"
+  color: "green"
